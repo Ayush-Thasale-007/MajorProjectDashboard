@@ -1,0 +1,99 @@
+.parentlogin{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.leftlogin{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.img_container{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 50vw;
+}
+
+.leftlogin img{
+    width: 100%;
+    height:  100%;
+} 
+
+.rightlogin{
+  background-color: #F4FAFF;
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.loginblock{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.login_header_img {
+    width: 5rem;
+    height: 4.5rem;
+    padding-top: 0.5rem;
+    margin-right: 0.6rem;
+}
+
+
+.adminlogin {
+    margin-top: -1.5rem;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1.8rem;
+    padding: 0;
+}
+
+.label {
+    color: #5B6D8E;
+    font-family: 'Poppins';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-bottom: 0rem; */
+}
+
+.rememberforget {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.4rem;
+}
+
+.rememberme {
+    font-family: 'Poppins';
+    font-size: 0.75rem;
+    font-weight: 400;
+    
+}
+
+.button {
+    display: flex;
+    /* width: 26.5625rem; */
+    height: 3.375rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #015BC4;
+    box-shadow: 0px 6px 26px 0px rgba(35, 80, 139, 0.15);
+}
