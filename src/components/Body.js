@@ -12,7 +12,8 @@ import Adddata from './Adddata';
 import { Provider } from "react-redux";
 // import { store, persistor } from "./redux/store";
 import { PersistGate } from "redux-persist/integration/react";
-import {store,persistor} from '../redux/store';
+import { store , persistor } from '../redux/store';
+import EditEntry from './EditEntry';
 
 function Body() {
   const token = localStorage.getItem('');
@@ -20,7 +21,7 @@ function Body() {
   return (
     <>
     <Provider store={store}>
-        <PersistGate loading={null} persistor={persistor}>
+     <PersistGate loading={null} persistor={persistor}>
       <BrowserRouter>
         <Header />
         <div className='mainbody'>
@@ -34,6 +35,7 @@ function Body() {
                   <Route  path="/help" element={<Help />} />
                   <Route  path="/query" element={<Query />} />
                   <Route  path="/adddata" element={<Adddata/>}/>
+                  <Route  path="/editentry" element={<EditEntry/>}/>
                 </Route>
             </Routes>
           </div>

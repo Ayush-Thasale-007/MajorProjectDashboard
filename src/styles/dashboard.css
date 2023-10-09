@@ -190,3 +190,13 @@ body {
     overflow: scroll;
     height: 24rem;
 }
+
+
+/* -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+    .block2_{
+        display:flex;
+        flex-direction: column;
+    }
+}

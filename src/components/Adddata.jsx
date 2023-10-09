@@ -6,8 +6,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useDispatch } from 'react-redux';
 import { addDepartment } from '../redux/Actions/addDepartment';
 import { useSelector } from 'react-redux';
-
-
 import '../styles/adddata.css'
 
 function Adddata() {
@@ -23,13 +21,11 @@ function Adddata() {
         event.preventDefault();
         //   const res = axios.put("https://dummyjson.com/users/1", {firstName: "XYZ"})
         //   .then(res=> console.log(res))
-
         //   console.log(post);
         //   axios.post("https://dummyjson.com/users/add", {
         //     firstName: post.firstName })
         //   .then(response=> console.log(response))
         //   .catch(err => console.log(err))     
-
         //   console.log(post);
 
         dispatch(addDepartment({ ...post, "id": Date.now()}));

@@ -5,21 +5,18 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import '../styles/dashboard.css'
+import '../styles/dashboard.css';
 import { Button, TableCell } from '@mui/material';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { LocalizationProvider } from '@mui/x-date-pickers-pro';
 // import { AdapterDayjs } from '@mui/x-date-pickers-pro/AdapterDayjs'
-import { AdapterDateFns } from '@mui/x-date-pickers-pro/AdapterDateFns'
-import { AdapterLuxon } from '@mui/x-date-pickers-pro/AdapterLuxon'
-import { AdapterMoment } from '@mui/x-date-pickers-pro/AdapterMoment'
+import { AdapterDateFns } from '@mui/x-date-pickers-pro/AdapterDateFns';
+import { AdapterLuxon } from '@mui/x-date-pickers-pro/AdapterLuxon';
+import { AdapterMoment } from '@mui/x-date-pickers-pro/AdapterMoment';
 import { DatePicker } from '@mui/x-date-pickers-pro';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import 'dayjs/locale/de';
-
-
-
 
 export default function Dashboard() {
 

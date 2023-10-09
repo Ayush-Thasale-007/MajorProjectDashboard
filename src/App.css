@@ -162,3 +162,12 @@ h4 {
     border:0;
     background-color: #FFF;
 }
+
+
+/* -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+    .sidebar{
+        display:none;
+    }
+}

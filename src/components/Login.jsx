@@ -10,10 +10,6 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import '../styles/login.css';
-import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
-import Body from './Body';
-
 const defaultTheme = createTheme();
 const token = localStorage.getItem('token');
 
