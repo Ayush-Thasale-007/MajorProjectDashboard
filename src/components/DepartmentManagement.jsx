@@ -45,7 +45,7 @@ export default function Dashboard() {
   return (
     <div className='parentblock'>
       <div className='block1'>
-        Department list
+        {/* Department list */}
         &nbsp;
         {/* <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" margin-top="2px" viewBox="0 0 12 12" fill="none">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M2.91946 0.175421C3.1624 -0.0584297 3.55572 -0.0584297 3.79805 0.175421L8.93599 5.13333C9.42127 5.60162 9.42127 6.36133 8.93599 6.82962L3.76077 11.8244C3.52031 12.0559 3.13196 12.059 2.88839 11.8306C2.63985 11.5974 2.63675 11.2129 2.88156 10.976L7.61811 6.40569C7.86105 6.17125 7.86105 5.7917 7.61811 5.55726L2.91946 1.02327C2.67651 0.789422 2.67651 0.409265 2.91946 0.175421Z" fill="#9B9B9B" />
@@ -53,7 +53,7 @@ export default function Dashboard() {
         &#707;
         &nbsp;
 
-        View Detail
+        {/* View Detail */}
 
       </div>
 
